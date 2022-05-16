@@ -14,7 +14,7 @@ use Throwable;
 
 use function sprintf;
 
-class LeagueFilesystemAdapterV1 implements BackupManagerFilesystemAdapter
+final class LeagueFilesystemAdapterV1 implements BackupManagerFilesystemAdapter
 {
     private FilesystemInterface $fileSystem;
 
