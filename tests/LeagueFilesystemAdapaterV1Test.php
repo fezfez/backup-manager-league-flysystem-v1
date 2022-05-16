@@ -18,7 +18,7 @@ use function fwrite;
 use function rewind;
 use function stream_get_contents;
 
-class LeagueFilesystemAdapaterV1Test extends TestCase
+final class LeagueFilesystemAdapaterV1Test extends TestCase
 {
     public function testReadStreamOk(): void
     {
