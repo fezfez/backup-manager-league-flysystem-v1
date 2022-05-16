@@ -8,3 +8,4 @@ coverage.xml
 coverage
 .phpcs-cache
 .phpunit.result.cache
+index.html
